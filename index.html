@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>木嶼晶坊 MUYU CRYSTAL｜天然水晶手作發財樹・原木能量擺飾</title>
+  <meta name="description" content="木嶼晶坊嚴選天然原礦水晶與原木切片底座，手工金線纏繞每一株獨一無二的水晶能量樹。招財、淨化、開運與空間美學的質感選物。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 頂部公告列 -->
+  <div class="announcement-bar">
+    <p>全館滿 NT$ 1,500 免運費｜輸入優惠碼 <strong>WELCOME100</strong> 現折 NT$ 100・附開運保養說明卡</p>
+  </div>
+
+  <!-- 導覽列 -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="木嶼晶坊首頁">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M16 27V12" stroke-linecap="round"/>
+            <path d="M16 17C12 17 9 14 9 10.5C12.5 10.5 15 13 16 17Z" fill="currentColor" fill-opacity="0.15"/>
+            <path d="M16 15C20 15 23 12 23 8.5C19.5 8.5 17 11 16 15Z" fill="currentColor" fill-opacity="0.15"/>
+            <path d="M16 12C13.5 9.5 13.5 6.5 16 4.5C18.5 6.5 18.5 9.5 16 12Z" fill="currentColor" fill-opacity="0.25"/>
+            <ellipse cx="16" cy="27" rx="8" ry="2.2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">木嶼晶坊</span>
+          <span class="brand-subtitle">MUYU CRYSTAL</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="主要導覽">
+        <a href="#collection">精選作品</a>
+        <a href="#energy-guide">水晶能量指南</a>
+        <a href="#craft">手作工藝</a>
+        <a href="#faq">常見問題</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-trigger" id="openCartBtn" type="button" aria-label="開啟購物車">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M6 7h12l-1 13H7L6 7z" stroke-linejoin="round"/>
+            <path d="M9 7V5a3 3 0 0 1 6 0v2" stroke-linecap="round"/>
+          </svg>
+          <span class="cart-label">購物袋</span>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="開啟選單" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- 手機版選單 -->
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#collection">精選作品</a>
+      <a href="#energy-guide">水晶能量指南</a>
+      <a href="#craft">手作工藝</a>
+      <a href="#faq">常見問題</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero 主視覺 -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">HANDCRAFTED CRYSTAL TREES</span>
+          <h1>把大地礦石的微光，<br />種進日常的書桌與心室</h1>
+          <p class="hero-desc">
+            每一株晶樹皆由天然原礦晶石、古銅金線手工纏繞，搭配帶著真實年輪的原木底座。
+            枝枒可隨心微調伸展姿態，為居家玄關、辦公案頭凝聚溫潤安定的招財氣場。
+          </p>
+          <div class="hero-cta-group">
+            <a href="#collection" class="btn btn-primary">選購限量晶樹</a>
+            <a href="#energy-guide" class="btn btn-ghost">找尋命定晶石</a>
+          </div>
+          <ul class="hero-pillars" aria-label="品牌保證">
+            <li>
+              <span class="pillar-num">100%</span>
+              <span class="pillar-text">天然原礦晶石</span>
+            </li>
+            <li>
+              <span class="pillar-num">手工</span>
+              <span class="pillar-text">金線編織可塑枝幹</span>
+            </li>
+            <li>
+              <span class="pillar-num">原木</span>
+              <span class="pillar-text">天然樹皮年輪底座</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-frame">
+            <img src="32401.jpg" alt="雙手捧福・金黃蜜蠟招財樹，搭配黑曜石碎石與原木底座擺放於書桌" />
+            <div class="hero-floating-card">
+              <span class="tag-pill">人氣典藏</span>
+              <strong>雙手捧福・金黃蜜蠟招財樹</strong>
+              <span>NT$ 2,680</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 品牌特色條 -->
+    <section class="trust-strip" aria-label="服務特色">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">✦</div>
+          <div>
+            <h3>天然原礦不染色</h3>
+            <p>保留晶石天然冰裂、棉絮與礦物色澤，每一顆都獨一無二。</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">◈</div>
+          <div>
+            <h3>可塑形手工銅線</h3>
+            <p>韌性佳的金色銅線手工扭轉成幹，收到後可自由撥開造型。</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon" aria-hidden="true">❋</div>
+          <div>
+            <h3>防撞安心禮盒出貨</h3>
+            <p>枝葉獨立緩衝固定，附贈淨化指南卡，自用送禮皆體面。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 商品展示與購買區 -->
+    <section class="collection-section" id="collection">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">CURATED COLLECTION</span>
+            <h2>精選水晶手作能量樹</h2>
+          </div>
+          <p class="section-lead">依空間氣場與個人心願挑選，點擊作品可瀏覽細節照片與選購規格。</p>
+        </div>
+
+        <!-- 篩選列 -->
+        <div class="filter-bar" role="tablist" aria-label="依能量主題篩選商品">
+          <button class="filter-btn active" data-filter="all" type="button" role="tab" aria-selected="true">全部作品 (4)</button>
+          <button class="filter-btn" data-filter="wealth" type="button" role="tab" aria-selected="false">招財聚富</button>
+          <button class="filter-btn" data-filter="purify" type="button" role="tab" aria-selected="false">淨化守護</button>
+          <button class="filter-btn" data-filter="fortune" type="button" role="tab" aria-selected="false">貴人開運</button>
+        </div>
+
+        <!-- 商品列表 Grid (由 app.js 渲染) -->
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <!-- 實拍細節畫廊（呈現所有 5 張實拍之美） -->
+    <section class="gallery-showcase">
+      <div class="container">
+        <div class="gallery-banner">
+          <div class="gallery-copy">
+            <span class="eyebrow">REAL PHOTOGRAPHY</span>
+            <h2>實品微距，看得見的手作溫度</h2>
+            <p>
+              從通透飽滿的綠東陵晶石、銅線纏繞的細緻紋理，到底座鋪陳的白水晶、黃水晶與黑曜石碎石，
+              我們堅持實物拍攝，讓你在下單前就能細細品味每一株小樹的自然光澤。
+            </p>
+            <button class="btn btn-secondary" type="button" data-quick-open="aventurine-tree">查看綠東陵樹細節</button>
+          </div>
+          <div class="gallery-mosaic">
+            <figure class="mosaic-item mosaic-tall">
+              <img src="32400.jpg" alt="綠東陵晶樹微距特寫，呈現天然綠色晶石與金線纏繞工藝" loading="lazy" />
+              <figcaption>綠東陵晶石微距光澤</figcaption>
+            </figure>
+            <figure class="mosaic-item">
+              <img src="32394.jpg" alt="掌心大小的白水晶樹與黃水晶底座" loading="lazy" />
+              <figcaption>掌心小品・案頭好搭檔</figcaption>
+            </figure>
+            <figure class="mosaic-item">
+              <img src="32396_0.jpg" alt="南紅瑪瑙晶樹搭配雙金元寶與黑曜石白水晶底座" loading="lazy" />
+              <figcaption>雙色碎石 × 招財金元寶</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 水晶能量與擺放指南 -->
+    <section class="guide-section" id="energy-guide">
+      <div class="container">
+        <div class="section-header center">
+          <span class="eyebrow">CRYSTAL & PLACEMENT GUIDE</span>
+          <h2>水晶寓意與風水擺放指南</h2>
+          <p class="section-lead">不同礦石對應不同生活場域，為你的空間選對一株剛剛好的能量樹。</p>
+        </div>
+
+        <div class="guide-tabs" role="tablist" aria-label="空間擺放建議">
+          <button class="guide-tab active" data-guide="desk" type="button" role="tab" aria-selected="true">辦公書桌・專注正財</button>
+          <button class="guide-tab" data-guide="entryway" type="button" role="tab" aria-selected="false">玄關財位・鎮宅迎福</button>
+          <button class="guide-tab" data-guide="living" type="button" role="tab" aria-selected="false">客廳店面・貴人喜氣</button>
+          <button class="guide-tab" data-guide="bedroom" type="button" role="tab" aria-selected="false">臥室床頭・澄淨安神</button>
+        </div>
+
+        <div class="guide-panel" id="guidePanel"></div>
+      </div>
+    </section>
+
+    <!-- 手作工藝步驟 -->
+    <section class="craft-section" id="craft">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">THE CRAFT</span>
+            <h2>一株水晶樹的誕生</h2>
+          </div>
+          <p class="section-lead">拒絕大量模具塑料，每一座底座與枝幹都是時間與手感累積的結晶。</p>
+        </div>
+
+        <div class="craft-steps">
+          <article class="craft-card">
+            <span class="step-num">01</span>
+            <h3>嚴選天然原礦打孔</h3>
+            <p>挑選色澤溫潤、大小協調的天然原礦滾石，保留礦物天然肌理與通透光感。</p>
+          </article>
+          <article class="craft-card">
+            <span class="step-num">02</span>
+            <h3>手工金線多股編織</h3>
+            <p>將晶石逐顆固定於抗氧化銅線，多股螺旋扭轉成樹幹，枝椏可依喜好自由彎折展開。</p>
+          </article>
+          <article class="craft-card">
+            <span class="step-num">03</span>
+            <h3>原木年輪 × 能量碎石</h3>
+            <p>穩固植入帶樹皮的自然木片底座，表面鋪滿對應磁場的黃水晶、白水晶或黑曜石碎石。</p>
+          </article>
+          <article class="craft-card">
+            <span class="step-num">04</span>
+            <h3>淨化消磁安心包裝</h3>
+            <p>出貨前以音叉或白水晶簇淨化磁場，並妥善固定枝幹防撞寄出，開箱即可展開造型。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 常見問題 FAQ -->
+    <section class="faq-section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro">
+          <span class="eyebrow">Q & A</span>
+          <h2>購買前你想知道的事</h2>
+          <p>若有任何客製禮盒、企業贈禮或大量訂購需求，歡迎於結帳備註或透過客服聯繫我們。</p>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>收到的水晶樹枝葉會是扁平的嗎？要怎麼整理？</summary>
+            <p>為了避免運送途中碰撞壓折，出貨時我們會將枝葉適度收攏並加層防護。您收到後只需用雙手輕輕將銅線枝幹向外撥開、調整弧度，就能打造出如照片般立體蓬鬆的樹冠造型。</p>
+          </details>
+          <details class="faq-item">
+            <summary>天然水晶上面有冰裂、雲霧或小黑點是正常的嗎？</summary>
+            <p>是的！天然礦石在地底歷經億萬年結晶生成，都會帶有獨特的冰裂紋、棉絮、色帶或共生礦物點點，木頭切片底座的樹皮與年輪紋路也各有差異，這正是天然手作與玻璃塑膠仿品最大的區別。</p>
+          </details>
+          <details class="faq-item">
+            <summary>平常需要怎麼清潔與保養晶樹？</summary>
+            <p>平時可用乾燥的軟毛刷或吹塵球輕拂灰塵即可。建議避免長期置於潮濕浴室或強烈陽光直射處，以免原木底座受潮或部分晶石色澤變淡。若想定期消磁，可置於月光下或搭配白水晶簇淨化。</p>
+          </details>
+          <details class="faq-item">
+            <summary>下單後多久會出貨？有哪些付款與配送方式？</summary>
+            <p>現貨商品於下單後 1–2 個工作天內寄出，支援宅配到府與超商取貨（滿 NT$ 1,500 免運）。付款方式提供貨到付款、銀行轉帳與線上模擬支付選項。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="brand-text">
+          <span class="brand-title">木嶼晶坊</span>
+          <span class="brand-subtitle">MUYU CRYSTAL</span>
+        </div>
+        <p>以天然原礦與手作溫度，為日常空間點亮安靜而豐盛的能量角落。</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>商品系列</h4>
+          <a href="#collection">全部能量晶樹</a>
+          <a href="#energy-guide">風水擺放指南</a>
+          <a href="#craft">手作工藝介紹</a>
+        </div>
+        <div>
+          <h4>購物須知</h4>
+          <a href="#faq">運送與包裝說明</a>
+          <a href="#faq">天然礦石特性</a>
+          <a href="#faq">消磁與日常保養</a>
+        </div>
+        <div>
+          <h4>客服資訊</h4>
+          <p>服務時間：週一至週五 10:00–18:00</p>
+          <p>客服信箱：hello@muyu-crystal.example</p>
+          <p>優惠代碼：WELCOME100（折抵 NT$ 100）</p>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 木嶼晶坊 MUYU CRYSTAL. 天然水晶手作選物電商展示網站。</p>
+    </div>
+  </footer>
+
+  <!-- 商品詳情彈窗 (Modal) -->
+  <div class="modal-backdrop" id="productModal" hidden aria-hidden="true">
+    <div class="modal-dialog product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeProductModal" type="button" aria-label="關閉商品詳情">✕</button>
+      <div class="modal-grid">
+        <div class="modal-gallery">
+          <div class="modal-main-img-wrap">
+            <img id="modalMainImg" src="" alt="" />
+          </div>
+          <div class="modal-thumbs" id="modalThumbs"></div>
+        </div>
+        <div class="modal-info">
+          <span class="modal-category" id="modalCategory"></span>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-subtitle" id="modalSubtitle"></p>
+          <div class="modal-price-row">
+            <span class="modal-price" id="modalPrice"></span>
+            <span class="modal-compare-price" id="modalComparePrice"></span>
+          </div>
+          <p class="modal-desc" id="modalDesc"></p>
+
+          <div class="modal-specs" id="modalSpecs"></div>
+
+          <div class="variant-section">
+            <label class="field-label">選擇款式／規格</label>
+            <div class="variant-options" id="modalVariants"></div>
+          </div>
+
+          <div class="modal-purchase-row">
+            <div class="qty-stepper" aria-label="數量選擇">
+              <button type="button" id="modalQtyMinus" aria-label="減少數量">−</button>
+              <span id="modalQtyVal">1</span>
+              <button type="button" id="modalQtyPlus" aria-label="增加數量">+</button>
+            </div>
+            <button type="button" class="btn btn-primary btn-add-cart" id="modalAddToCartBtn">加入購物袋</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 側滑購物車抽屜 (Cart Drawer) -->
+  <div class="drawer-backdrop" id="cartBackdrop" hidden aria-hidden="true">
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartDrawerTitle">
+      <div class="cart-header">
+        <h2 id="cartDrawerTitle">我的購物袋</h2>
+        <button class="modal-close" id="closeCartBtn" type="button" aria-label="關閉購物袋">✕</button>
+      </div>
+
+      <div class="free-shipping-bar" id="freeShippingBar">
+        <p id="freeShippingText">再消費 NT$ 1,500 即享免運優惠</p>
+        <div class="progress-track">
+          <div class="progress-fill" id="freeShippingFill"></div>
+        </div>
+      </div>
+
+      <div class="cart-items" id="cartItems"></div>
+
+      <div class="cart-footer" id="cartFooter">
+        <div class="promo-row">
+          <input type="text" id="promoInput" placeholder="輸入優惠碼（例：WELCOME100）" aria-label="輸入優惠碼" />
+          <button type="button" class="btn btn-secondary btn-sm" id="applyPromoBtn">套用</button>
+        </div>
+        <p class="promo-feedback" id="promoFeedback"></p>
+
+        <div class="cart-summary">
+          <div class="summary-line">
+            <span>商品小計</span>
+            <span id="cartSubtotal">NT$ 0</span>
+          </div>
+          <div class="summary-line" id="discountRow" hidden>
+            <span>優惠折抵</span>
+            <span class="discount-text" id="cartDiscount">-NT$ 0</span>
+          </div>
+          <div class="summary-line">
+            <span>預估運費</span>
+            <span id="cartShipping">NT$ 80</span>
+          </div>
+          <div class="summary-line summary-total">
+            <span>應付總額</span>
+            <span id="cartTotal">NT$ 0</span>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-full" id="proceedCheckoutBtn">前往填寫訂購資料</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- 結帳表單與訂單確認彈窗 -->
+  <div class="modal-backdrop" id="checkoutModal" hidden aria-hidden="true">
+    <div class="modal-dialog checkout-dialog" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle">
+      <button class="modal-close" id="closeCheckoutModal" type="button" aria-label="關閉結帳視窗">✕</button>
+
+      <!-- 填寫表單畫面 -->
+      <div id="checkoutFormView">
+        <span class="eyebrow">CHECKOUT</span>
+        <h2 id="checkoutTitle">填寫訂購與收件資訊</h2>
+        <p class="checkout-note">此為商品展示與線上訂購模擬流程，送出後將立即產生訂單確認單號。</p>
+
+        <form id="checkoutForm" class="checkout-form">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="custName">收件人姓名 *</label>
+              <input id="custName" name="custName" type="text" required placeholder="例如：林沐羽" />
+            </div>
+            <div class="form-field">
+              <label for="custPhone">聯絡手機 *</label>
+              <input id="custPhone" name="custPhone" type="tel" required placeholder="0912-345-678" />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="custEmail">電子信箱 *</label>
+            <input id="custEmail" name="custEmail" type="email" required placeholder="name@example.com" />
+          </div>
+
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="shippingMethod">配送方式</label>
+              <select id="shippingMethod" name="shippingMethod">
+                <option value="宅配到府">新竹／黑貓宅配到府</option>
+                <option value="7-11取貨">7-ELEVEN 超商取貨</option>
+                <option value="全家取貨">全家超商取貨</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="paymentMethod">付款方式</label>
+              <select id="paymentMethod" name="paymentMethod">
+                <option value="貨到付款">貨到付款</option>
+                <option value="銀行轉帳">ATM / 銀行轉帳</option>
+                <option value="線上刷卡">信用卡一次付清（模擬）</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="custAddress">收件地址或取貨門市 *</label>
+            <input id="custAddress" name="custAddress" type="text" required placeholder="請輸入完整配送地址或超商門市名稱" />
+          </div>
+
+          <div class="form-field">
+            <label for="custNote">訂單備註（送禮卡片／指定時段）</label>
+            <textarea id="custNote" name="custNote" rows="2" placeholder="如有祝賀小卡內容或特殊需求可寫在這裡"></textarea>
+          </div>
+
+          <div class="checkout-order-box">
+            <strong>訂單摘要</strong>
+            <div id="checkoutItemsPreview"></div>
+            <div class="checkout-total-line">
+              <span>合計金額</span>
+              <strong id="checkoutTotalAmount">NT$ 0</strong>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">確認送出訂單</button>
+        </form>
+      </div>
+
+      <!-- 訂單完成畫面 -->
+      <div id="checkoutSuccessView" class="checkout-success" hidden>
+        <div class="success-icon" aria-hidden="true">✓</div>
+        <h2>感謝您的訂購！訂單已建立</h2>
+        <p class="order-number-line">訂單編號：<strong id="generatedOrderId"></strong></p>
+        <div class="order-receipt" id="orderReceiptDetails"></div>
+        <button type="button" class="btn btn-primary" id="finishOrderBtn">回到商店繼續逛逛</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 提示吐司 -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
